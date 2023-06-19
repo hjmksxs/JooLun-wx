@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.joolun</groupId>
-    <artifactId>joolun-wx</artifactId>
+    <groupId>org.phoenixfly</groupId>
+    <artifactId>phoenixfly-wx</artifactId>
     <version>3.3.2</version>
 
-    <name>joolun-wx</name>
+    <name>phoenixfly-wx</name>
     <url>http://www.joolun.com</url>
     <description>JooLun微信管理系统</description>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <druid.version>1.2.4</druid.version>
         <bitwalker.version>1.21</bitwalker.version>
@@ -164,50 +164,50 @@
             
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-quartz</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-quartz</artifactId>
                 <version>${project.version}</version>
             </dependency>
 	
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-generator</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-generator</artifactId>
                 <version>${project.version}</version>
             </dependency>
 			
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-framework</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-framework</artifactId>
                 <version>${project.version}</version>
             </dependency>
 			
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-system</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-system</artifactId>
                 <version>${project.version}</version>
             </dependency>
 			
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-common</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 微信模块-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-weixin</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-weixin</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 商城模块-->
             <dependency>
-                <groupId>com.joolun</groupId>
-                <artifactId>joolun-mall</artifactId>
+                <groupId>org.phoenixfly</groupId>
+                <artifactId>phoenixfly-mall</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -263,14 +263,14 @@
     </dependencyManagement>
 
     <modules>
-        <module>joolun-admin</module>
-        <module>joolun-framework</module>
-        <module>joolun-system</module>
-        <module>joolun-quartz</module>
-        <module>joolun-generator</module>
-        <module>joolun-common</module>
-        <module>joolun-weixin</module>
-        <module>joolun-mall</module>
+        <module>phoenixfly-admin</module>
+        <module>phoenixfly-framework</module>
+        <module>phoenixfly-system</module>
+        <module>phoenixfly-quartz</module>
+        <module>phoenixfly-generator</module>
+        <module>phoenixfly-common</module>
+        <module>phoenixfly-weixin</module>
+        <module>phoenixfly-mall</module>
     </modules>
     <packaging>pom</packaging>
 

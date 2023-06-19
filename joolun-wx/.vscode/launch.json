@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "JooLunWxApplication",
+            "request": "launch",
+            "mainClass": "com.joolun.JooLunWxApplication",
+            "projectName": "pheonixfly-admin"
+        },
+        {
+            "type": "java",
+            "name": "SensitiveUtils",
+            "request": "launch",
+            "mainClass": "com.joolun.common.utils.SensitiveUtils",
+            "projectName": "joolun-common"
+        },
+        {
+            "type": "java",
+            "name": "EscapeUtil",
+            "request": "launch",
+            "mainClass": "com.joolun.common.utils.html.EscapeUtil",
+            "projectName": "joolun-common"
+        },
+        {
+            "type": "java",
+            "name": "LocalDateTimeUtils",
+            "request": "launch",
+            "mainClass": "com.joolun.weixin.utils.LocalDateTimeUtils",
+            "projectName": "joolun-weixin"
+        }
+    ]
+}

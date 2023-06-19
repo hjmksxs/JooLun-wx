@@ -1,0 +1,6 @@
+{
+    "java.configuration.maven.globalSettings": "D:\\apache-maven-3.6.3\\conf\\settings.xml",
+    "java.configuration.maven.userSettings": "D:\\apache-maven-3.6.3\\conf\\settings.xml",
+    "telemetry.enableTelemetry": false,
+    "java.compile.nullAnalysis.mode": "disabled"
+}
